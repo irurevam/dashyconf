@@ -1,0 +1,474 @@
+pageInfo:
+  title: Sparwan
+  description: ''
+  navLinks:
+    - title: Linkedin
+      path: https://www.linkedin.com/company/74435284/admin/
+      target: newtab
+    - title: Twitter
+      path: https://twitter.com/SparwanTeam
+      target: newtab
+    - title: Facebook
+      path: https://www.facebook.com/sparwanteam
+      target: newtab
+  footerText: Copyright Sparwan 2022
+  logo: ''
+sections:
+  - name: Infos
+    widgets:
+      - type: exchange-rates
+        options:
+          apiKey: ac477d865b04532ffee9176b
+          inputCurrency: EUR
+          outputCurrencies:
+            - USD
+        id: 0_511_exchangerates
+      - type: clock
+        options:
+          timeZone: Europe/Paris
+          format: fr-FR
+          hideDate: false
+        id: 1_511_clock
+  - name: Sparwan Shop
+    icon: generative
+    displayData:
+      sortBy: most-used
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Sparwan Shop
+        description: Voici la boutique Sparwan
+        icon: generative
+        url: https://sparwan.com/
+        target: newtab
+        id: 0_1174_sparwanshop
+      - title: Sparwan Admin Shop
+        description: L'administration de la boutique
+        icon: generative
+        url: https://sparwan.com/admin123/
+        target: newtab
+        id: 1_1174_sparwanadminshop
+      - title: UPS
+        icon: favicon
+        url: >-
+          https://www.ups.com/smallbusiness/ship/shipping-tool?loc=fr_FR&tx=6228416552727284
+        target: newtab
+        id: 2_1174_ups
+      - title: GTmetrix
+        icon: favicon
+        url: https://gtmetrix.com
+        target: newtab
+        statusCheck: true
+        id: 3_1174_gtmetrix
+      - title: PageSpeed
+        icon: favicon
+        url: https://pagespeed.web.dev/?hl=fr
+        target: newtab
+        statusCheck: true
+        id: 4_1174_pagespeed
+      - title: Tawk.to
+        icon: favicon
+        url: https://dashboard.tawk.to/#/dashboard/63568ec2daff0e1306d3ad34
+        target: newtab
+        statusCheck: true
+        id: 5_1174_tawkto
+  - name: Analytics & Admin
+    icon: generative
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Analytics
+        description: Google Analytics
+        icon: generative
+        url: https://analytics.google.com/analytics/
+        target: newtab
+        id: 0_1527_analytics
+      - title: Search Console
+        description: Google Search Console
+        icon: generative
+        url: https://search.google.com/search-console?hl=fr
+        target: newtab
+        id: 1_1527_searchconsole
+      - title: Ads
+        description: Google Ads
+        icon: generative
+        url: https://ads.google.com/aw/overview?
+        target: newtab
+        id: 2_1527_ads
+      - title: Merchant Center
+        description: Google Merchant Center
+        icon: generative
+        url: https://merchants.google.com/
+        target: newtab
+        id: 3_1527_merchantcenter
+      - title: My Business
+        description: Google My Business
+        icon: generative
+        url: https://www.google.com/business/
+        target: newtab
+        id: 4_1527_mybusiness
+      - title: Groupes
+        icon: generative
+        url: https://groups.google.com/my-groups?hl=fr
+        target: newtab
+        id: 5_1527_groupes
+      - title: Admin
+        icon: generative
+        url: https://admin.google.com/
+        target: newtab
+        id: 6_1527_admin
+      - title: Tag manager
+        description: Google tag manager
+        icon: generative
+        url: https://tagmanager.google.com
+        target: newtab
+        id: 7_1527_tagmanager
+  - name: LAB Siege
+    icon: generative
+    displayData:
+      sortBy: most-used
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Proxmox
+        description: Serveur de virtualisation
+        icon: generative
+        url: https://vm.sparwan.fr:8006
+        target: newtab
+        statusCheckAllowInsecure: true
+        id: 0_732_proxmox
+      - title: Kuma
+        icon: favicon
+        url: http://kuma.sparwan.fr:3001
+        target: newtab
+        statusCheck: true
+        id: 1_732_kuma
+      - title: Portainer SIEGE
+        icon: generative
+        url: http://container.sparwan.fr:9000/#!/auth
+        target: newtab
+        id: 2_732_portainersiege
+      - title: Portainer Oracle
+        icon: generative
+        url: http://oracle.sparwan.fr:9000
+        target: newtab
+        id: 3_732_portaineroracle
+      - title: UG65
+        icon: generative
+        url: https://ug65.sparwan.fr/login.html
+        target: newtab
+        id: 4_732_ug
+      - title: UG63
+        icon: generative
+        url: http://10.0.0.23
+        target: newtab
+        id: 5_732_ug
+      - title: Chirpstack
+        icon: generative
+        url: http://10.0.0.77:8080/#/login
+        target: newtab
+        id: 6_732_chirpstack
+      - title: UR35
+        icon: generative
+        url: http://10.0.0.80/login.html
+        target: newtab
+        id: 7_732_ur
+  - name: Infra
+    icon: generative
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Redmine
+        description: Outil de gestion de projet
+        icon: generative
+        url: https://redmine.sparwan.fr
+        target: newtab
+        id: 0_496_redmine
+      - title: Dolibarr
+        description: ERP Sparwan Dolibarr
+        icon: generative
+        url: https://customers.sparwan.fr
+        target: newtab
+        id: 1_496_dolibarr
+      - title: HUB Sparwan
+        icon: generative
+        url: https://hub.sparwan.fr
+        target: newtab
+        id: 2_496_hubsparwan
+      - title: Wiki
+        description: Wiki Sparwan
+        icon: generative
+        url: https://wiki.sparwan.fr
+        target: newtab
+        id: 3_496_wiki
+      - title: Bitwarden
+        icon: favicon
+        url: https://bitwarden.sparwan.fr:4439
+        target: newtab
+        statusCheck: true
+        id: 4_496_bitwarden
+  - name: Google
+    icon: generative
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Google
+        description: ''
+        icon: favicon
+        url: https://www.google.fr
+        target: newtab
+        id: 0_605_google
+      - title: Gmail
+        icon: favicon
+        url: https://mail.google.com/
+        target: newtab
+        id: 1_605_gmail
+      - title: Drive
+        icon: generative
+        url: https://drive.google.com/drive/u/0/my-drive
+        target: newtab
+        id: 2_605_drive
+      - title: Agenda
+        icon: generative
+        url: https://calendar.google.com/calendar/u/0/r?tab=oc
+        target: newtab
+        id: 3_605_agenda
+      - title: Meet
+        icon: generative
+        url: https://meet.google.com/wib-wjnd-hja
+        target: newtab
+        id: 4_605_meet
+      - title: Sheets
+        icon: generative
+        url: https://docs.google.com/spreadsheets/u/0/
+        target: newtab
+        id: 5_605_sheets
+  - name: Hosts
+    icon: generative
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Cloudflare
+        icon: favicon
+        url: https://dash.cloudflare.com
+        target: newtab
+        id: 0_529_cloudflare
+      - title: O2switch admin
+        icon: generative
+        url: https://etanche.o2switch.net:2083
+        target: newtab
+        id: 1_529_oswitchadmin
+      - title: O2switch
+        icon: favicon
+        url: https://www.o2switch.fr
+        target: newtab
+        id: 2_529_oswitch
+      - title: Hostinger
+        icon: favicon
+        url: https://hpanel.hostinger.com/hosting/sparwan.com/
+        target: newtab
+        statusCheck: true
+        id: 3_529_hostinger
+      - title: easycron
+        icon: favicon
+        url: https://www.easycron.com/
+        target: newtab
+        id: 4_529_easycron
+      - title: Astra
+        icon: favicon
+        url: >-
+          https://my.getastra.com/waf/3e4ead11-1f5f-4f7a-96c9-ab70142c3425/dashboard
+        target: newtab
+        id: 5_529_astra
+  - name: Autres
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Github MileSight
+        icon: generative
+        url: https://github.com/Milesight-IoT
+        target: newtab
+        id: 0_628_githubmilesight
+      - title: Tiny Wow
+        icon: favicon
+        url: https://tinywow.com
+        target: newtab
+        id: 1_628_tinywow
+      - title: Opensourcealternative.to
+        icon: favicon
+        url: https://www.opensourcealternative.to/
+        target: newtab
+        id: 2_628_opensourcealternativeto
+      - title: OvertheWire
+        icon: favicon
+        url: https://overthewire.org/wargames/
+        target: newtab
+        statusCheck: true
+        id: 3_628_overthewire
+  - name: Marketing
+    icon: generative
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Meta Business Suite
+        icon: favicon
+        url: https://business.facebook.com/
+        target: newtab
+        statusCheck: true
+        id: 0_930_metabusinesssuite
+      - title: Facebook
+        icon: generative
+        url: https://www.facebook.com
+        target: newtab
+        statusCheck: true
+        id: 1_930_facebook
+      - title: Page Sparwan Shop
+        icon: generative
+        url: https://www.facebook.com/sparwanshop
+        target: newtab
+        statusCheck: true
+        id: 2_930_pagesparwanshop
+      - title: Page Sparwan
+        icon: generative
+        url: https://www.facebook.com/sparwanteam
+        target: newtab
+        id: 3_930_pagesparwan
+      - title: Linkedin
+        icon: favicon
+        url: https://www.linkedin.com/feed/
+        target: newtab
+        id: 4_930_linkedin
+      - title: Twitter
+        icon: favicon
+        url: https://twitter.com/home?lang=fr
+        target: newtab
+        id: 5_930_twitter
+  - name: Fournisseurs
+    icon: generative
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Ingram MICRO
+        icon: favicon
+        url: https://fr-new.ingrammicro.com/Site/home
+        target: newtab
+        statusCheck: true
+        id: 0_1304_ingrammicro
+      - title: Waveshare
+        icon: favicon
+        url: https://www.waveshare.com
+        target: newtab
+        statusCheck: true
+        id: 1_1304_waveshare
+      - title: Milesight
+        icon: favicon
+        url: https://www.milesight-iot.com
+        target: newtab
+        statusCheck: true
+        id: 2_1304_milesight
+      - title: Alibaba
+        icon: favicon
+        url: https://french.alibaba.com
+        target: newtab
+        id: 3_1304_alibaba
+      - title: Rutronik
+        icon: favicon
+        url: https://www.rutronik24.com
+        target: newtab
+        id: 4_1304_rutronik
+  - name: Enseignement
+    icon: generative
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Moodle ICAM
+        icon: favicon
+        url: https://moodle.icam.fr/my/
+        target: newtab
+        id: 0_1250_moodleicam
+      - title: Drive partagé ICAM
+        icon: favicon
+        url: https://drive.google.com/drive/u/3/folders/0AMKxYboWfCbXUk9PVA
+        target: newtab
+        id: 1_1250_drivepartagicam
+      - title: Connexion ICAM
+        icon: favicon
+        url: https://cas.icam.fr/cas/login
+        target: newtab
+        id: 2_1250_connexionicam
+appConfig:
+  theme: material
+  language: fr
+  layout: auto
+  iconSize: small
+  startingView: default
+  defaultOpeningMethod: newtab
+  statusCheck: true
+  statusCheckInterval: 30
+  faviconApi: google
+  routingMode: history
+  enableMultiTasking: false
+  widgetsAlwaysUseProxy: false
+  webSearch:
+    disableWebSearch: false
+    searchEngine: duckduckgo
+    openingMethod: newtab
+    searchBangs: {}
+  enableFontAwesome: true
+  enableMaterialDesignIcons: false
+  hideComponents:
+    hideHeading: false
+    hideNav: false
+    hideSearch: false
+    hideSettings: true
+    hideFooter: false
+  auth:
+    enableGuestAccess: false
+    users: []
+    enableKeycloak: false
+  showSplashScreen: false
+  preventWriteToDisk: false
+  preventLocalSave: false
+  disableConfiguration: false
+  allowConfigEdit: true
+  enableServiceWorker: false
+  disableContextMenu: false
+  disableUpdateChecks: false
+  disableSmartSort: false
+  enableErrorReporting: false
